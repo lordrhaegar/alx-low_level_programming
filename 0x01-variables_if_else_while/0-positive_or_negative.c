@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - the program entry point
+ * Description: This function generates a random number and prints
+ * whether it is positive, negative or equals to zero
+ * Return: the function retuens zero
+ */
 int main(void)
 {
 	int n;
