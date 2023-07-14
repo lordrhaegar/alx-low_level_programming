@@ -5,7 +5,7 @@
 /**
  * main - the program entry point
  * Description: This function prints alphabets in lowercase
- * Return: the function retuens zero
+ * Return: the function returns zero
  */
 int main(void)
 {
