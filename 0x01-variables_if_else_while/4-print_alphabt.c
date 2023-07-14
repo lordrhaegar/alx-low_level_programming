@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - the program entry point
- * Description: This function prints alphabets in lowercase
+ * Description: This function prints alphabets in lowercase, excluding 'e' and 'q'
  * Return: the function returns zero
  */
 int main(void)
