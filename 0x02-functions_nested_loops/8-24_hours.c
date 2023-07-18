@@ -2,18 +2,6 @@
 #include "main.h"
 
 /**
- * main - the entry of the program
- * Description - runs print_last_digit function
- * Return: On success 0.
- */
-int main(void)
-{
-	jack_bauer();
-
-	return (0);
-}
-
-/**
  * jack_bauer - 24 hours
  * Description - prints every minute of the day
  * Return: returns nothing

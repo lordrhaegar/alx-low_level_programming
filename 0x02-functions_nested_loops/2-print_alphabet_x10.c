@@ -2,19 +2,6 @@
 #include "main.h"
 
 /**
- * main - Entry point of the program
- * Description - Prints the alphabet, in lowercase
- * Return: on Success 0.
- */
-
-int main(void)
-{
-	print_alphabet_x10();
-
-	return (0);
-}
-
-/**
  * print_alphabet - function to print alphabets
  * Description - Prints the alphabets in lowercase
  * Return: Returns nothing

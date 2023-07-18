@@ -2,28 +2,6 @@
 #include "main.h"
 
 /**
- * main - the entry of the program
- * Description - runs _islower() function
- * Return: On success 0.
- */
-int main(void)
-{
-	int r;
-
-	r = _islower('A');
-	_putchar(r + '0');
-	r = _islower('a');
-	_putchar(r + '0');
-	r = _islower('B');
-	_putchar(r + '0');
-	r = _islower('b');
-	_putchar(r + '0');
-	_putchar('\n');
-
-	return (0);
-}
-
-/**
  * _islower - lowercase checker
  * Description - checks if a character is lowercase
  * @c: The character to check

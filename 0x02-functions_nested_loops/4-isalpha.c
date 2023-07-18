@@ -2,28 +2,6 @@
 #include "main.h"
 
 /**
- * main - the entry of the program
- * Description - runs _isalpha function
- * Return: On success 0.
- */
-int main(void)
-{
-	int r;
-
-	r = _isalpha('-');
-	_putchar(r + '0');
-	r = _isalpha('a');
-	_putchar(r + '0');
-	r = _isalpha('B');
-	_putchar(r + '0');
-	r = _isalpha('b');
-	_putchar(r + '0');
-	_putchar('\n');
-
-	return (0);
-}
-
-/**
  * _isalpha - Alphabetical checker
  * Description - checks if a character is alphabetical
  * @c: The character to check
