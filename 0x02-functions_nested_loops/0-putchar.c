@@ -4,7 +4,7 @@
 /**
  * main - the program entry point
  * Description - This program prints a string
- * Return - The function returns zero
+ * Return: On Success 0.
  */
 
 int main(void)
@@ -18,5 +18,5 @@ int main(void)
 		i++;
 	}
 
-	return(0);
+	return (0);
 }
