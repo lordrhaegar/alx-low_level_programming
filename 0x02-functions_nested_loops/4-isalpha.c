@@ -3,7 +3,7 @@
 
 /**
  * main - the entry of the program
- * Description - runs _islower() function
+ * Description - runs _isalpha function
  * Return: On success 0.
  */
 int main(void)
