@@ -19,10 +19,10 @@ int main(void)
 		digits[i] = digits[(i - 2)] + digits[(i - 1)];
 	}
 	printf("%ld, ", digits[0]);
-	for (i = 1; i <= 49; i++)
+	for (i = 1; i <= 48; i++)
 	{
 		printf("%ld, ", digits[i]);
-		if (i == 49)
+		if (i == 48)
 		{
 			printf("%ld\n", digits[i]);
 		}
