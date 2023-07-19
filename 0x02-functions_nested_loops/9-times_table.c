@@ -4,6 +4,7 @@
 /**
  * print - print numbers
  * Description - print numbers using _putchar function
+ * @n: number to print
  * Return - void
  */
 
@@ -11,8 +12,8 @@ void print(int n)
 {
 	int digits[100];
 	int j;
-
 	int i = 0;
+
 	if (n == 0)
 	{
 		_putchar('0');
@@ -41,8 +42,8 @@ void print(int n)
 void times_table(void)
 {
 	int j;
-
 	int i = 0;
+
 	while (i <= 9)
 	{
 		j = 0;
@@ -62,5 +63,5 @@ void times_table(void)
 		}
 		_putchar('\n');
 		i++;
-	}	
+	}
 }
