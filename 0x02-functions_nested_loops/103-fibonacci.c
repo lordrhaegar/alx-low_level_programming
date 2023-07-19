@@ -22,7 +22,7 @@ int main(void)
 	}
 	for (i = 0; i < 50; i++)
 	{
-		if (digits[i] < 4000000)
+		if (digits[i] < 4000000 && (digits[i] % 2) == 0)
 		{
 			n += digits[i];
 		}
