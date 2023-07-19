@@ -30,4 +30,6 @@ int main(void)
 			printf("%ld\n", digits[i]);
 		}
 	}
+
+	return (0);
 }
