@@ -7,12 +7,6 @@
  * Return - void
  */
 
-int main(void)
-{
-	times_table();
-
-	return (0);
-}
 void print(int n)
 {
 	int digits[100];
