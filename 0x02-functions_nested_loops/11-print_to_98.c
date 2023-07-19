@@ -43,25 +43,32 @@ void print(int n)
  */
 void print_to_98(int n)
 {
-	while (n <= 98)
+	if (n < 98)
 	{
-		print(n);
-		if (n != 98)
+		while (n <= 98)
 		{
-			_putchar(',');
-			_putchar(' ');
+			print(n);
+			if (n != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			n++;
 		}
-		n++;
 	}
-	while (n >= 98)
-        {
-                print(n);
-                if (n != 98)
-                {
-                        _putchar(',');
-                        _putchar(' ');
-                }
-                n--;
-        }
+	else if (n > 98)
+	{
+		while (n >= 98)
+        	{
+                	print(n);
+                	if (n != 98)
+                	{
+                        	_putchar(',');
+                        	_putchar(' ');
+                	}
+                	n--;
+        	}
+	}
+	print(n);
 	_putchar('\n');
 }
