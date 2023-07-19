@@ -17,7 +17,6 @@ int main(void)
 	for (i = 2; i < 50; i++)
 	{
 		digits[i] = digits[(i - 2)] + digits[(i - 1)];
-		j++;
 	}
 	printf("%ld, ", digits[0]);
 	for (i = 1; i <= 49; i++)
