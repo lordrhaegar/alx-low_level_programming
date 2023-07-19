@@ -21,11 +21,7 @@ int main(void)
 	printf("%ld, ", digits[0]);
 	for (i = 1; i <= 48; i++)
 	{
-		if (i != 48)
-		{
-			printf("%ld, ", digits[i]);
-		}
-		printf("%ld\n", digits[i]);
+		printf("%ld, ", digits[i]);
 	}
 
 	return (0);
