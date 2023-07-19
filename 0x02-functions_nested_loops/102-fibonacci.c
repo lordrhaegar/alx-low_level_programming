@@ -10,22 +10,20 @@
 int main(void)
 {
 	long digits[50];
-	int j;
 	int i;
 
 	digits[0] = 1;
 	digits[1] = 2;
-	j = 2;
 	for (i = 2; i < 50; i++)
 	{
 		digits[i] = digits[(i - 2)] + digits[(i - 1)];
 		j++;
 	}
-	printf("%ld", digits[0]);
-	for (i = 1; i <= j; i++)
+	printf("%ld, ", digits[0]);
+	for (i = 1; i <= 49; i++)
 	{
 		printf("%ld, ", digits[i]);
-		if (i == j)
+		if (i == 49)
 		{
 			printf("%ld\n", digits[i]);
 		}
