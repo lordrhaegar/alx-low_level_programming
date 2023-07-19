@@ -31,10 +31,6 @@ void print(int n)
 	}
 	for (j = i - 1; j >= 0; j--)
 	{
-		if (i == 1)
-		{
-			_putchar(' ');
-		}
 		_putchar(digits[j] + '0');
 	}
 }
@@ -57,5 +53,15 @@ void print_to_98(int n)
 		}
 		n++;
 	}
+	while (n >= 98)
+        {
+                print(n);
+                if (n != 98)
+                {
+                        _putchar(',');
+                        _putchar(' ');
+                }
+                n--;
+        }
 	_putchar('\n');
 }
