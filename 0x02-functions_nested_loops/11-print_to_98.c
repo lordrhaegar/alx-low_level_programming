@@ -47,8 +47,6 @@ void print(int n)
  */
 void print_to_98(int n)
 {
-	int i = 0;
-
 	while (n <= 98)
 	{
 		print(n);
