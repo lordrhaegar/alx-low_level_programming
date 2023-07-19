@@ -19,9 +19,14 @@ int main(void)
 		digits[i] = digits[(i - 2)] + digits[(i - 1)];
 	}
 	printf("%ld, ", digits[0]);
-	for (i = 1; i <= 48; i++)
+	for (i = 1; i <= 49; i++)
 	{
-		printf("%ld, ", digits[i]);
+		printf("%ld", digits[i]);
+		if (i != 49)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	return (0);
