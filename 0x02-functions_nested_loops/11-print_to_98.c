@@ -69,6 +69,9 @@ void print_to_98(int n)
                 	n--;
         	}
 	}
-	print(n);
+	else if (n == 98)
+	{
+		print(n);
+	}
 	_putchar('\n');
 }
