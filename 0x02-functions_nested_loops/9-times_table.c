@@ -7,6 +7,12 @@
  * Return - void
  */
 
+int main(void)
+{
+	times_table();
+
+	return (0);
+}
 void print(int n)
 {
 	int digits[100];
@@ -25,6 +31,10 @@ void print(int n)
 	}
 	for (j = i - 1; j >= 0; j--)
 	{
+		if (i == 1)
+		{
+			_putchar(' ');
+		}
 		_putchar(digits[j] + '0');
 	}
 }
@@ -48,6 +58,10 @@ void times_table(void)
 			if (j != 9)
 			{
 				_putchar(',');
+				_putchar(' ');
+			}
+			if (i == 0 && j != 9)
+			{
 				_putchar(' ');
 			}
 			j++;
