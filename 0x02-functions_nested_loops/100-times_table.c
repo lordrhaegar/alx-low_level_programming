@@ -29,6 +29,20 @@ void print(int n)
 		if (i == 1)
 		{
 			_putchar(' ');
+			_putchar(' ');
+			_putchar(' ');
+			i = 0;
+		}
+		if (i == 2)
+		{
+			_putchar(' ');
+			_putchar(' ');
+			i = 0;
+		}
+		if (i == 3)
+		{
+			_putchar(' ');
+			i = 0;
 		}
 		_putchar(digits[j] + '0');
 	}
@@ -56,12 +70,11 @@ void print_times_table(int n)
 				if (j != n)
 				{
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
 				}
 				if (i == 0 && j != n)
 				{
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				j++;
