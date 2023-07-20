@@ -27,19 +27,23 @@ void fizzBuzz(void)
 	{
 		if ((i % 5) == 0 && (i % 3) == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
+			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else if ((i % 5) == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
+			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else if ((i % 3) == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
+			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
+			i != 100 ? putchar(' ') : putchar('\n');
 		}
 	}
 }
