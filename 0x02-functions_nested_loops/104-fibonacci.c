@@ -4,7 +4,7 @@
 /**
  * main - entry point of the program
  * Description - runs fabonacci function
- * Return - On success )
+ * Return - On success 0
  */
 int main(void)
 {
