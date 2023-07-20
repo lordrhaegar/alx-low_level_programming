@@ -3,9 +3,8 @@
 
 /**
  * print - print numbers
- * Description - print numbers using _putchar function
- * @n: number to print
- * Return - void
+ * Description - runs fabonacci function
+ * Return - On success )
  */
 int main(void)
 {
@@ -35,13 +34,13 @@ void printer(unsigned long n)
 }
 
 /**
- * times_table - print times table
- * Description - print times table from 0 - 9
+ * fabonacci - print fabonacci numbers
+ * Description - prints first 98 fabonacci numbers
  * Return - void
  */
 void fabonacci(unsigned long a, unsigned long b)
 {
-	unsigned long i;
+	int i;
 	unsigned long result;
 
 	printer(a);
@@ -59,7 +58,6 @@ void fabonacci(unsigned long a, unsigned long b)
 			_putchar(',');
 			_putchar(' ');
 		}
-		temp = a;
 		a = b;
 		b = result;
 	}
