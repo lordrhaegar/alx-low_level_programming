@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * print_most_numbers -
- * Description - 
- * Return -
+ * print_most_numbers - print numbers
+ * Description - print numbers from 0 to 9
+ * except 2 and 4
+ * Return - void
  */
 void print_most_numbers(void)
 {
