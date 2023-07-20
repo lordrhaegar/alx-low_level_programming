@@ -2,15 +2,22 @@
 #include "main.h"
 
 /**
- * print - print numbers
+ * main - entry point of the program
  * Description - runs fabonacci function
  * Return - On success )
  */
 int main(void)
 {
-	fabonacci(1,2);
+	fabonacci(1, 2);
 	return (0);
 }
+
+/**
+ * printer - prints numbers
+ * Description: prints numbers using _putchar
+ * @n: the number to be printed
+ * Return - returns void
+ */
 void printer(unsigned long n)
 {
 	int digits[100];
@@ -36,6 +43,8 @@ void printer(unsigned long n)
 /**
  * fabonacci - print fabonacci numbers
  * Description - prints first 98 fabonacci numbers
+ * @a: the first fabonacci digit
+ * @b: the second fabonacci digit
  * Return - void
  */
 void fabonacci(unsigned long a, unsigned long b)
@@ -49,11 +58,11 @@ void fabonacci(unsigned long a, unsigned long b)
 	printer(b);
 	_putchar(',');
 	_putchar(' ');
-	for (i = 0; i < 98; i++)
+	for (i = 0; i < 96; i++)
 	{
 		result = a + b;
 		printer(result);
-		if (i != 97)
+		if (i != 95)
 		{
 			_putchar(',');
 			_putchar(' ');
