@@ -43,7 +43,6 @@ void fabonacci(unsigned long a, unsigned long b)
 {
 	unsigned long i;
 	unsigned long result;
-	unsigned long temp;
 
 	printer(a);
 	_putchar(',');
