@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _isupper - Uppercase
  * Description - checks if a number is uppercase
