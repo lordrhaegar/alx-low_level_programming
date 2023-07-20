@@ -58,11 +58,11 @@ void fabonacci(unsigned long a, unsigned long b)
 	printer(b);
 	_putchar(',');
 	_putchar(' ');
-	for (i = 0; i < 96; i++)
+	for (i = 0; i < 93; i++)
 	{
 		result = a + b;
 		printer(result);
-		if (i != 95)
+		if (i != 92)
 		{
 			_putchar(',');
 			_putchar(' ');
