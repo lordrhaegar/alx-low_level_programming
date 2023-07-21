@@ -4,26 +4,15 @@
 
 /**
  * main - entry point of the program
- * Description - runs fizzBuzz
+ * Description - prints fixz for 3's multiples
+ * and Buzz for 5's multiples
+ * and FizzBuzz for both
  * Return - Returns 0 on success
  */
 int main(void)
 {
-	fizzBuzz();
-
-	return (0);
-}
-
-/**
- * fizzBuzz - prints fizz Buzz
- * Description - prints numbers, fizz, buzz
- * and fizzbuzz
- * Return - void
- */
-void fizzBuzz(void)
-{
 	int i;
-
+	
 	for (i == 1; i <= 100; i++)
 	{
 		if ((i % 5) == 0 && (i % 3) == 0)
