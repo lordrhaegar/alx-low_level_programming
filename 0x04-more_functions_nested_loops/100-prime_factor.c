@@ -14,9 +14,9 @@ int main(void)
 	a = 612852475143;
 	for (h = 2; h < a; h++)
 	{
-		if (n % h == 0)
+		if (a % h == 0)
 		{
-			n /= h;
+			a /= h;
 		}
 	}
 	printf("%ld\n", h);
