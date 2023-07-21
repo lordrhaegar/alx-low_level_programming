@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,27 +6,28 @@
  * Description - prints fixz for 3's multiples
  * and Buzz for 5's multiples
  * and FizzBuzz for both
- * Return - Returns 0 on success
+ * Return:  0 on success
  */
 int main(void)
 {
 	int i;
-	
-	for (i == 1; i <= 100; i++)
+
+	i = 1;
+	while (i <= 100)
 	{
 		if ((i % 5) == 0 && (i % 3) == 0)
 		{
-			printf("FizzBuzz");
+			printf("%s", "FizzBuzz");
 			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else if ((i % 5) == 0)
 		{
-			printf("Buzz");
+			printf("%s", "Buzz");
 			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else if ((i % 3) == 0)
 		{
-			printf("Fizz");
+			printf("%s", "Fizz");
 			i != 100 ? putchar(' ') : putchar('\n');
 		}
 		else
@@ -35,5 +35,8 @@ int main(void)
 			printf("%d", i);
 			i != 100 ? putchar(' ') : putchar('\n');
 		}
+		i++;
 	}
+
+	return (0);
 }
