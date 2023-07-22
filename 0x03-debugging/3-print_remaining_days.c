@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_remaining_days - 
- * Description - 
- * Return - 
+ * print_remaining_days - prints the remianing days of year
+ * Description - prints the remianing days of year
+ * Return - void
  */
 
-print_remaining_days()
+void print_remaining_days(int month, int day, int year)
 {
 	if((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
 	{
