@@ -4,6 +4,9 @@
 /**
  * print_remaining_days - prints the remianing days of year
  * Description - prints the remianing days of year
+ * @month: The current  month
+ * @day: the current day
+ * @year:the current year
  * Return - void
  */
 
