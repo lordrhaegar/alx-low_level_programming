@@ -6,6 +6,7 @@
  * Description- function that prints n elements
  * of an array of integers
  * @n: the number of elements of the
+ * @a: the array
  * array to be printed
  * Return: void
  */
@@ -18,7 +19,7 @@ void print_array(int *a, int n)
 		printf("%d", *(a + i));
 		if (i != n - 1)
 		{
-			printf(", " );
+			printf(", ");
 		}
 	}
 	printf("\n");
