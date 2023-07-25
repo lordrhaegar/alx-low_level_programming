@@ -4,7 +4,7 @@
 /**
  * _puts - print string
  * Description: function that prints a string
- * str - the string to be printed
+ * @str: the string to be printed
  * Return; void
  */
 void _puts(char *str)
