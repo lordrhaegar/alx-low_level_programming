@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlid.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
