@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "amin.h"
+#include "main.h"
 
 /**
  * _puts - print string
