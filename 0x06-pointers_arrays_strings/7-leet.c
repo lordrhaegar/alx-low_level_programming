@@ -10,8 +10,8 @@
 char *leet(char *n)
 {
 	int i, j;
-	char c[] = "AEOTL";
-	char d[] = "43071";
+	char c[] = "AaEeOoTtLl";
+	char d[] = "4433007711";
 
 	i = 0;
 	while (n[i] != '\0')
@@ -23,7 +23,9 @@ char *leet(char *n)
 			{
 				n[i] = d[j];
 			}
+			j++;
 		}
+		i++;
 	}
 	return (n);
 }
