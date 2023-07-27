@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -13,19 +14,9 @@ char *leet(char *n)
 	char c[] = "AEOTL";
 	char d[] = "43071";
 
-	k = 0;
-	l = 0;
-	while (n[k] != '\0')
+	for (i = 0; i < strlen(n); i++)
 	{
-		k++;
-	}
-	while (c[l] != '\0')
-	{
-		l++;
-	}
-	for (i = 0; i < k; i++)
-	{
-		for (j = 0; j < l; j++)
+		for (j = 0; j < strlen(c); j++)
 		{
 			if (n[i] == c[j] || n[i] == (c[j] + 32))
 			{
