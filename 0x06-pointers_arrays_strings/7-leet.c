@@ -10,11 +10,11 @@
 char *leet(char *n)
 {
 	int i, k, j, l;
+	char c[] = "AEOTL";
+	char d[] = "43071";
 
 	k = 0;
 	l = 0;
-	char c[] = "AEOTL";
-       	char d[] = "43071";
 	while (n[k] != '\0')
 	{
 		k++;
