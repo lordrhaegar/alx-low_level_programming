@@ -7,3 +7,4 @@ int _strcmp(char *s1, char *s2);
 int check( char a, char b);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
+char *leet(char *);
