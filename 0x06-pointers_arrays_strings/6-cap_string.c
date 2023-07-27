@@ -7,7 +7,7 @@
  * @n: the string to be capitalized
  * Return: pointer to the capitalized string
  */
-char *cap_string(char *)
+char *cap_string(char *n)
 {
 	int i, k;
 
@@ -29,7 +29,7 @@ char *cap_string(char *)
 				|| n[i] == '}' || n[i] == '\t'
 				|| n[i] == '\n' || n[i] == ' ')
 		{
-			if ( n[i + 1] >= 97 && n[i + 1] <= 122)
+			if (n[i + 1] >= 97 && n[i + 1] <= 122)
 			{
 				n[i + 1] -= 32;
 			}
