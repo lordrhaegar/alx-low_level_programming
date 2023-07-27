@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -10,15 +9,17 @@
  */
 char *leet(char *n)
 {
-	int i, k, j, l;
+	int i, j;
 	char c[] = "AEOTL";
 	char d[] = "43071";
 
-	for (i = 0; i < strlen(n); i++)
+	i = 0;
+	while (n[i] != '\0')
 	{
-		for (j = 0; j < strlen(c); j++)
+		j = 0;
+		while (c[j] != '\0')
 		{
-			if (n[i] == c[j] || n[i] == (c[j] + 32))
+			if (n[i] == c[j] || n[i] == c[j] + 32)
 			{
 				n[i] = d[j];
 			}
