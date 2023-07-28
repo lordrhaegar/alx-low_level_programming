@@ -10,10 +10,10 @@
 void print_number(int n)
 {
 	int r, i, k;
-	int a[100];
 
 	i = 0;
 	k = 0;
+	r = 0;
 	if (n < 0)
 	{
 		n *= -1;
@@ -25,14 +25,12 @@ void print_number(int n)
 	}
 	while (n > 0)
 	{
-		r = n % 10;
-		a[i] = r;
+		r = r * 10 + (n % 10);
 		n /= 10;
-		i++;
 	}
-	while (k < i)
+	while (r > 0)
 	{
-		_putchar(a[i - 1] + '0');
-		i--;
+		_putchar((r % 10) + '0');
+		r /= 10;
 	}
 }
