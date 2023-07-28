@@ -9,10 +9,8 @@
  */
 void print_number(int n)
 {
-	int r, i, k;
+	int r;
 
-	i = 0;
-	k = 0;
 	r = 0;
 	if (n < 0)
 	{
