@@ -7,8 +7,8 @@
  * string s as long as the characters from s occur
  * in the null-terminated string charset.
  * @s: null-terminated string
- * @accepted: characters to check for
- * Return - return the number of characters spanned
+ * @accept: characters to check for
+ * Return: returns the number of characters spanned
  */
 unsigned int _strspn(char *s, char *accept)
 {
