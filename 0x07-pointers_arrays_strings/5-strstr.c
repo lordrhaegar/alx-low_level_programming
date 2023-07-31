@@ -12,18 +12,23 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	while (*needle)
+	char* h;
+	char* n;
+
+	while (*haystack)
 	{
-		while (*haystack)
+		h = haystack;
+		n = needle;
+		while (*n && *h == *n)
 		{
-			if (*needle == *haystack)
-			{
-				return (haystack);
-				break;
-			}
-			haystack++;
+			h++;
+			n++;
 		}
-		needle++;
+		if (!(*n))
+		{
+			return haystack;
+		}
+		haystack++;
 	}
 	return (NULL);
 }
