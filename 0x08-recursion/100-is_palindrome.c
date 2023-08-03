@@ -31,7 +31,7 @@ int pchecker(char *s, int i)
 	}
 	if (*s == *(s + i))
 	{
-		return (pchecker(s + 1, l - 2));
+		return (pchecker(s + 1, i - 2));
 	}
 	return (0);
 }
