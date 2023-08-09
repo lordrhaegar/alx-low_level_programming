@@ -7,7 +7,7 @@
  * Description - concatenates 2 strings
  * @s1: frist string
  * @s2: second string
- * Retrun: point to a newly
+ * Return: pointer to a newly
  * allocated space in memory
  * which contains the contents of s1,
  * followed by the contents of s2,
@@ -23,9 +23,9 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while(s1[i])
+	while (s1[i])
 		i++;
-	while(s2[j])
+	while (s2[j])
 		j++;
 	size = i + j;
 	p = (char *) malloc(sizeof(char) * size);
