@@ -6,7 +6,7 @@
  * @argv: argument array
  * Return: On succesful 0
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int a, b, r;
 	char op;
@@ -23,6 +23,7 @@ int main(int argc, char *argv)
 	if (!f)
 	{
 		printf("%s", "Error");
+		return (99);
 	}
 	op = *argv[2];
 	if ((op == '/' || op == '%') && arg2 == 0)
